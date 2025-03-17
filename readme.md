@@ -1,6 +1,8 @@
-# CryptoZombies
+# CryptoZombies By Team Dash 
+**Memeber:**
+**Abhishek Singh [885199042] [abhishek.singh@csu.fullerton.edu]**
 
-This is a front-end application for interacting with the **CryptoZombies** smart contract on the Ethereum blockchain. It allows you to create, manage, and battle your own zombie army in a fun and gamified way.
+This project allows you to create, manage, and battle your own zombie army in a fun and gamified way.
 
 ## Features
 
@@ -34,7 +36,3 @@ This is a front-end application for interacting with the **CryptoZombies** smart
 1. HTML/CSS/JavaScript for the UI/UX.
 2. Web3.js for interaction with the Ethereum smart contract.
 3. MetaMask for handling account management and transaction signing.
-
-## Developed By: 
-Abhishek Singh [885199042]
-abhishek.singh@csu.fullerton.edu
