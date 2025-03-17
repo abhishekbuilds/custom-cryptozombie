@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoZombies</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="zombie.png">
+  <script language="javascript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.2.7-rc.0/web3.min.js"></script>
+  <script language="javascript" type="text/javascript" src="cryptozombies_abi.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>🧟‍♂️ Crypto Zombie Army</h1>
+    <h4>Submitted By - Abhishek Singh [885199042]</h4>
+
+    <div class="control-panel">
+      <input type="text" id="zombieName" placeholder="Enter Zombie Name">
+      <button id="createzombieButton">🧬 Create Zombie</button>
+      <button id="showZombieButton">👁️ Show My Zombies</button>
+      <button id="hideZombieButton">🙈 Hide Zombies</button>
+    </div>
+
+    <div id="battleZone" class="battle-container" style="display:none;">
+      <h2 id="battleStatus"></h2>
+      <div class="battle-area">
+        <div id="attacker"></div>
+        <div class="vs">⚔️ VS ⚔️</div>
+        <div id="defender"></div>
+      </div>
+    </div>
+    <div id="txStatus" class="status"></div>
+    <h2 id="zombieArmyTitle"></h2>
+    <div id="zombieArmy"></div>
+
+    <div class="battle-container">
+      <h2>⚔️ Zombie Battle Ground ⚔️</h2>
+      <input type="number" id="attackerZombieId" placeholder="Your Zombie ID">
+      <input type="number" id="targetZombieId" placeholder="Enemy Zombie ID">
+      <button id="attackBtn">⚔️ Attack Zombie</button>
+    </div>
+  </div>
+
+
+  <!-- Web3 script -->
+  <script src="web3.min.js"></script>
+  <script src="cryptozombies_abi.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
